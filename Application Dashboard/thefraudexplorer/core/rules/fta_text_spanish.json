@@ -2,7 +2,7 @@
  "_comment": "The Fraud Explorer - Fraud Triangle Analytics dictionary & rules, v0.1.5-spanish",
  "dictionary": {
  
-  "GENERIC": {	
+  "BASELINE": {	
 
    "opportunity": {
     "conflicto, conflictivo" : "/\\bconflict[^\\s]+/",
@@ -572,7 +572,7 @@
   "PURCHASES": {
 
    "pressure": {
-
+    "sin factura" : "/si[^\\s]+ factur[^\\s]+/"
    },
 
    "opportunity": {
