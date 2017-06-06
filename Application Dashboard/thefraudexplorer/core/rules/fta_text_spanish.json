@@ -24,7 +24,20 @@
                 "conflicto de intereses" : "/\\b(conflictos? de interes(es)?)\\b/",
                 "anadir lena al fuego" : "/\\b((anadir(le)?|poner(le)?|agregar(le)?)( mas)? lena al fuego)\\b/",
                 "estan espiando" : "/\\b(estan? (espiando|esculcando))\\b/",
-                "problemas con la familia" : "/\\b(problemas? (con|de)( la| el| un| mi)? (familia|espos[oa]|novi[oa]|hij[oa]))\\b/"
+                "problemas con la familia" : "/\\b(problemas? (con|de)( la| el| un| mi)? (familia|espos[oa]|novi[oa]|hij[oa]))\\b/",
+                "partimos cobijas" : "/\\b(partimos cobijas)\\b/",
+                "cortaron los servicios" : "/\\b(cortar(on)? los servicios)\\b/",
+                "sin rastros" : "/\\b((sin( dejar)?|no dej[ea]n?) (rastros?|huellas?))\\b/",
+                "descuadre de inventario" : "/\\b(descuadres? (de|en el|en los|en) inventarios?)\\b/",
+                "existen unos faltantes" : "/\\b((hay|existen?)( un| unos| varios) faltantes?)\\b/",
+                "de forma sospechosa" : "/\\b((de|en) formas? sospechosas?)\\b/",
+                "es muy sospechoso" : "/\\b((muy|es|son|eran?|fue(ron)?|somos|soy|fui|eres) sospechos[oa]s?)\\b/",
+                "en caso de sospecha" : "/\\b(en caso de sospechas?)\\b/",
+                "sospechan de todos" : "/\\b(sospechan? de (mi|el|ella|ellos|todos|usted))\\b/",
+                "creo que sospechan" : "/\\b(creo que( no| si)? sospech[ae]n?)\\b/",
+                "situacion tensa" : "/\\b(situacion( esta| es| fue)? tensa)\\b/",
+                "mucho estres" : "/\\b((mucho|que|muy|tanto|este) estres(ad[oa])?s?)\\b/",
+                "que embarrada" : "/\\b((que|la)( puedes?| podes)? embarr[aoe](das?|ron|r))\\b/"
             },
             
             "opportunity": {
@@ -47,7 +60,15 @@
                 "creyeron toda la historia" : "/\\b((creyeron|creyo|trag(o|agon))( toda)? las? historias?)\\b/",
                 "evadir los controles" : "/\\b((evita(r|ndo)|evadi(r|endo)|salta(r|ndo)|brinca(r|ndo))( los| el)? control(es)?)\\b/",
                 "maquille el informe" : "/\\b(maquill(e|ar|as) (el|l[oa]s?|un(os)?) (informes?|documentos?|papel(es)?))\\b/",
-                "contribuir con la causa" : "/\\b((contribuir|apoyar|ayudar)( con)? la causa)\\b/"
+                "contribuir con la causa" : "/\\b((contribuir|apoyar|ayudar)( con)? la causa)\\b/",
+                "bajo cuerda" : "/\\b(bajo cuerda)\\b/",
+                "debajo de la mesa" : "/\\b((debajo|bajo)( de)?( la)? mesa)\\b/",
+                "saliendo con el jefe" : "/\\b(sali(r|endo)? con (el|la) jefe)\\b/",
+                "siempre llego de primero" : "/\\b((siempre )?llego de primer[oa])\\b/",
+                "auditoria no madruga" : "/\\b(auditor(a|ia)? no madrugan?)\\b/",
+                "propuesta indecente" : "/\\b(propuestas? indecentes?)\\b/",
+                "la mas minima sospecha" : "/\\b((la mas )?minimas? sospechas?)\\b/",
+                "lo que han robado" : "/\\b(lo que( se)? han? robado)\\b/"
             },
 
             "rationalization": {
@@ -70,22 +91,31 @@
                 "hay que avisparse" : "/\\b((hay|tienen?) que (avispar(se)?|ser avispad[oa]s?))\\b/",
                 "abuso de poder" : "/\\b(abuso de (poder|autoridad))\\b/",
                 "nadie se va a dar cuenta" : "/\\b(nadie se va( dar)? (cuenta|enterar))\\b/",
-                "nadie le importa" : "/\\b((nadie|quien(es)?) les? importa)\\b/"
+                "nadie le importa" : "/\\b((nadie|quien(es)?) les? importa)\\b/",
+                "informacion confidencial" : "/\\b(informacion(es)?( son| es| eran?| fue(ron)?)? confidencial(es)?)\\b/",
+                "cortar por lo sano" : "/\\b(cort(ar|aron|[eo]|emos|amos) por lo sano)\\b/",
+                "la jefe de mi lado" : "/\\b((el|la) jefe de (mi|su|nuestro) lado)\\b/",
+                "lo necesito para lo mio" : "/\\b(lo (necesito|quiero) para lo mio)\\b/",
+                "si ellos pueden yo tambien puedo" : "/\\b(si (ellos|el|ellas?|usted(es)?) pueden?( pues)? yo tambien puedo)\\b/"
             }
         },
 
         "PURCHASES": {
 
             "pressure": {
-
+                "rebajar la comision" : "/\\b(rebaj(ar(on)?|ando|[aeo])( las?)? comision(es)?)\\b/"
             },
 
             "opportunity": {
-
+                "contratacion indebida" : "/\\b(contrat(os?|acion(es)?) indebid[ao]s?)\\b/",
+                "doble contrato" : "/\\b(dobles? contrat(os?|acion(es)?))\\b/",
+                "acelerar la contratacion" : "/\\b((aceler([eoa]|ar|ando|aron)|agiliz([eoa]|ar(on)?|ando))( la| el| los)? contrat(os?|acion(es)?))\\b/",
+                "retrasar el contrato" : "/\\b((retras(ar(an|on)?|[oae])|posterg([oa]|ue|ar))( la| el| los)? contrat(os?|acion(es)?))\\b/",
+                "falta el contrato" : "/\\b(falt(ar(an|on)?)( la| el| los)? contrat(os?|acion(es)?))\\b/"
             },
 
             "rationalization": {
-
+                "contrato confidencial" : "/\\b((procesos?|contrat(os?|acion(es)?))( son| es| eran?| fue(ron)?)? confidencial(es)?)\\b/"
             }
         },
 
@@ -115,7 +145,7 @@
             },
 
             "rationalization": {
-
+                
             }
         },
 
@@ -145,7 +175,7 @@
             },
 
             "rationalization": {
-
+                "entrevista confidencial" : "/\\b(entrevistas?( son| es| eran?| fue(ron)?)? confidencial(es)?)\\b/"
             }
         },
 
@@ -242,29 +272,18 @@
         "FINANCE": {
 
             "pressure": {
+                "desfalco en la caja" : "/\\b(desfalcos? en( la)? caja)\\b/"
 
             },
 
             "opportunity": {
-
+                "juegue con la utilidad" : "/\\b((jueguen?|juguemos|juego|juegue) con las? utilidad(es)?)\\b/",
+                "tapar el descuadre" : "/\\b(tap(an?|en?|ar) (el|los) decuadres?)\\b/",
+                "jineteo de cuentas" : "/\\b(jinete(o|a|ar|ado|ando) (de|las?) cuentas?)\\b/"
             },
 
             "rationalization": {
-
-            }
-        },
-
-        "ACCOUNTING": {
-
-            "pressure": {
-
-            },
-
-            "opportunity": {
-
-            },
-
-            "rationalization": {
+                "es solo un prestamo" : "/\\b((es solo|solo es) un prestamo)\\b/"
 
             }
         },
