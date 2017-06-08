@@ -10,7 +10,7 @@
                 "dejese querer" : "/\\b(dejese (querer|regalar|consentir))\\b/",
                 "tension en la empresa" : "/\\b((tension|crisis) en la empresa)\\b/",
                 "no alcanza ni para el almuerzo" : "/\\b(no alcanza( ni)? para( el| la| los| un(os)?)? (almuerzos?|comidas?|gaseosas?|dulces?))\\b/",
-                "cuanto vale su silecio" : "/\\b(cuanto (vale|valia) (su|mi) silencio)\\b/",
+                "cuanto vale su silencio" : "/\\b(cuanto (vale|valia) (su|mi) silencio)\\b/",
                 "usted no sabe nada" : "/\\b((usted(es)?|el|ell[ao]s?) (no|nunca) (saben?|sup(e|o|ieron)) nada)\\b/",
                 "evadir la auditoria" : "/\\b((evita(r|ndo)|evadi(r|endo)|enganar) (las?|el|al) auditor(ias?|as?)?)\\b/",
                 "estoy bajo presion" : "/\\b(estoy bajo( muchas?)? (presion(es)?|tension(es)?))\\b/",
@@ -37,7 +37,17 @@
                 "creo que sospechan" : "/\\b(creo que( no| si)? sospech[ae]n?)\\b/",
                 "situacion tensa" : "/\\b(situacion( esta| es| fue)? tensa)\\b/",
                 "mucho estres" : "/\\b((mucho|que|muy|tanto|este) estres(ad[oa])?s?)\\b/",
-                "que embarrada" : "/\\b((que|la)( puedes?| podes)? embarr[aoe](das?|ron|r))\\b/"
+                "que embarrada" : "/\\b((que|la)( puedes?| podes)? embarr[aoe](das?|ron|r))\\b/",
+                "un riesgo alto" : "/\\b((un|de) (riesgo alto|alto riesgo))\\b/",
+                "cobro juridico" : "/\\b(cobro juridico)\\b/",
+                "no me ascendieron" : "/\\b(no (me|nos) ascendieron)\\b/",
+                "miseria de salario" : "/\\b((miseria|miseros?)( de)? salarios?)\\b/",
+                "deudas que no dan espera" : "/\\b((deudas?|culebras?)( que)? no dan? espera)\\b/",
+                "alto nivel de endeudamiento" : "/\\b(altos? nivel(es)? de endeudamiento)\\b/",
+                "negocio personal" : "/\\b(negocios? personal(es)?)\\b/",
+                "es un manipulador" : "/\\b(es una? manipuladora?)\\b/",
+                "me negaron el prestamo" : "/\\b((me|nos) negaron (el|los) prestamos?)\\b/",
+                "el gota a gota" : "/\\b(gota gota)\\b/" 
             },
             
             "opportunity": {
@@ -68,7 +78,16 @@
                 "auditoria no madruga" : "/\\b(auditor(a|ia)? no madrugan?)\\b/",
                 "propuesta indecente" : "/\\b(propuestas? indecentes?)\\b/",
                 "la mas minima sospecha" : "/\\b((la mas )?minimas? sospechas?)\\b/",
-                "lo que han robado" : "/\\b(lo que( se)? han? robado)\\b/"
+                "lo que han robado" : "/\\b(lo que( se)? han? robado)\\b/",
+                "se empantano la vuelta" : "/\\b(se( nos| me| le| te)? empantano la vuelta)\\b/",
+                "dispuesto a jugarsela toda" : "/\\b(dispuest[oa]s? a jugar(selas?|noslas?|melas?) todas?)\\b/",
+                "jugarse la ultima carta" : "/\\b(jugarsen? las? ultimas? cartas?)\\b/",
+                "con el tiempo se arregla" : "/\\b((con el tiempo|mas tarde|luego|despues) se arreglan?)\\b/",
+                "oportunidad de ascenso" : "/\\b(oportunidad(es)? de (ascenso|ascender))\\b/",
+                "sin gente profesional" : "/\\b(sin gente profesional)\\b/",
+                "mover las influencias" : "/\\b((mover|movio|movi|moviendo|movieron|mueve) las influencias)\\b/",
+                "pago de influencias" : "/\\b(pago de( las)? influencias)\\b/",
+                "al escondido" : "/\\b(al escondido)\\b/"
             },
 
             "rationalization": {
@@ -96,14 +115,27 @@
                 "cortar por lo sano" : "/\\b(cort(ar|aron|[eo]|emos|amos) por lo sano)\\b/",
                 "la jefe de mi lado" : "/\\b((el|la) jefe de (mi|su|nuestro) lado)\\b/",
                 "lo necesito para lo mio" : "/\\b(lo (necesito|quiero) para lo mio)\\b/",
-                "si ellos pueden yo tambien puedo" : "/\\b(si (ellos|el|ellas?|usted(es)?) pueden?( pues)? yo tambien puedo)\\b/"
+                "si ellos pueden yo tambien puedo" : "/\\b(si (ellos|el|ellas?|usted(es)?) pueden?( pues)? yo tambien puedo)\\b/",
+                "arriesgarse por mucho" : "/\\b(arriesgarsen? por (mucho|nada))\\b/",
+                "impacto insignificante" : "/\\b(impacto( es| fue| era)? insignificante)\\b/",
+                "no es justo" : "/\\b(no es justo)\\b/",
+                "porque son de confianza" : "/\\b((son|es) de confianza)\\b/"
             }
         },
 
         "PURCHASES": {
 
             "pressure": {
-                "rebajar la comision" : "/\\b(rebaj(ar(on)?|ando|[aeo])( las?)? comision(es)?)\\b/"
+                "rebajar la comision" : "/\\b(rebaj(ar(on)?|ando|[aeo])( las?)? comision(es)?)\\b/",
+                "aumentar la comision" : "/\\b((aument(ar|ando|a|o|aron)|mejor(ar|ando|ao|aron))( las?)? comision(es)?)\\b/",
+                "gastos adicionales" : "/\\b(gastos? adicional(es)?)\\b/",
+                "materiales adicionales" : "/\\b(material(es)? adicional(es)?)\\b/",
+                "hay que pagarle todo" : "/\\b(hay que pagarles? (todo|completo))\\b/",
+                "hay que pagarle rapido" : "/\\b(hay que pagarles? rapido)\\b/",
+                "hay que seleccionar a ese proveedor" : "/\\b(hay que (seleccionar|esco[jg]er|ele[jg]ir) (ese|esa) (proveedor|empresa))\\b/",
+                "tiene que ser ese proveedor" : "/\\b(tiene que ser (ese|esa) (proveedor|empresa))\\b/",
+                "hay que hacerle fuerza a ese proveedor" : "/\\b(hay que hacerle fuerza (ese|esa) (proveedor|empresa))\\b/",
+                "hay que mantener el proveedor" : "/\\b(hay que (mantener|conservar) (el|al) proveedor)\\b/"
             },
 
             "opportunity": {
@@ -111,26 +143,136 @@
                 "doble contrato" : "/\\b(dobles? contrat(os?|acion(es)?))\\b/",
                 "acelerar la contratacion" : "/\\b((aceler([eoa]|ar|ando|aron)|agiliz([eoa]|ar(on)?|ando))( la| el| los)? contrat(os?|acion(es)?))\\b/",
                 "retrasar el contrato" : "/\\b((retras(ar(an|on)?|[oae])|posterg([oa]|ue|ar))( la| el| los)? contrat(os?|acion(es)?))\\b/",
-                "falta el contrato" : "/\\b(falt(ar(an|on)?)( la| el| los)? contrat(os?|acion(es)?))\\b/"
+                "falta el contrato" : "/\\b(falt(ar(an|on)?)( la| el| los)? contrat(os?|acion(es)?))\\b/",
+                "descartando a los proveedores" : "/\\b(descart(a|e|ando|ar)( los| el)? proveedor(es)?)\\b/",
+                "modificar la cotizacion" : "/\\b((modific(a|ar|ando|aron)|cambi(a|e|ar|aron|ando)) las? cotizacion(es)?)\\b/",
+                "con diferente razon social" : "/\\b(con diferente razon social)\\b/",
+                "con una direccion diferente" : "/\\b(con (una|la) direccion diferente)\\b/",
+                "pagarle por anticipado" : "/\\b(pagarles? por anticipado)\\b/"
             },
 
             "rationalization": {
-                "contrato confidencial" : "/\\b((procesos?|contrat(os?|acion(es)?))( son| es| eran?| fue(ron)?)? confidencial(es)?)\\b/"
+                "contrato confidencial" : "/\\b((procesos?|contrat(os?|acion(es)?))( son| es| eran?| fue(ron)?)? confidencial(es)?)\\b/",
+                "se merece el contrato" : "/\\b(se merecen? (el|los)? (contratos?|proyectos?))\\b/",
+                "necesita el contrato" : "/\\b(necesitan? (el|los)? contratos?)\\b/",
+                "regalo del proveedor" : "/\\b((regalo|regalito) del proveedor)\\b/",
+                "el regalito que le dejaron" : "/\\b(el (regalito|regalo) que (les? dejaron|me dieron))\\b/",
+                "amistad con el proveedor" : "/\\b(amistad con (el|los) proveedor(es)?)\\b/",
+                "no hay mas proveedores" : "/\\b(no hay( mas)? proveedores)\\b/",
+                "es el unico proveedor en el medio" : "/\\b((es el unico proveedor|es la unica empresa) en (el|la) (medio|sector|industria|pais|region))\\b/",
+                "unico proveedor autorizado" : "/\\b(unic[oa] (proveedor|empresa) (autorizad[oa]|certificad[ao]))\\b/",
+                "nadie mas esta certificado" : "/\\b(nadie mas esta certificado\\b/",
+                "es el mas barato" : "/\\b(es (el|la) mas (barat[oa]|economic[oa]))\\b/",
+                "el que mas nos conviene" : "/\\b((el|la) que mas (nos|les?|me) (conviene|convendria))\\b/"
             }
         },
 
         "TECHNOLOGY": {
 
             "pressure": {
-
+                "ordenaron chuzarlo" : "/\\b((ordenaron|ordeno|obligaron|presionaron)( para)? chuzarl[oa]s?)\\b/",
+                "se podria fugar la informacion" : "/\\b(se podria fugar la informacion)\\b/",
+                "software sospechoso" : "/\\b((software|programas?|aplicacion(es)?)( muy|bastante)? sospechos[oa]s?)\\b/",
+                "me obligaron a instalarlo" : "/\\b((me|nos) oblig(aron|o) (instalarlo|desinstalarlo|configurarlo|descargarlo))\\b/",
+                "violacion a la privacidad" : "/\\b(violacion( de la| la)? privacidad)\\b/",
+                "entregar la contrasena" : "/\\b(entreg(ar|ue|ara) las? (contrasenas?|claves?))\\b/",
+                "el equipo esta encriptado" : "/\\b(el (equipo|pc|celular|dispositivo) esta (encriptado|cifrado|protegido))\\b/",
+                "entrar al correo de ella" : "/\\b((entrar|entre|entremos) (al|los) correos? de (ella|el|ellos))\\b/",
+                "delito informatico" : "/\\b(delito informatico)\\b/",
+                "que entregara los datos" : "/\\b((entregara?|devolvieran?) los datos)\\b/"
             },
 
             "opportunity": {
-
+                "chuzar el equipo" : "/\\b(chuza(r|ndo) (el|al|la) (equipo|emplead[oa]|persona|objetivo|pc|celular))\\b/",
+                "software espia" : "/\\b((software|programas?)( para)? espiar?)\\b/",
+                "estoy espiando" : "/\\b((estoy|estamos|esta|estuvo|estara) espiando)\\b/",
+                "instalar el bicho" : "/\\b(instalar el (bicho|bichito|bichote))\\b/",
+                "hay que interceptarlo" : "/\\b((hay|tengo|tenemos|debemos)( que)? (interceptarl[oa]s?|chuzarl[oa]s?))\\b/",
+                "escuchar por el microfono" : "/\\b((escuchar|escuchamos|escucha) por el microfono)\\b/",
+                "sin contrasena" : "/\\b((sin|no tienen?) (contrasenas?|claves?))\\b/",
+                "sin licencia" : "/\\b((sin|no tienen?|venc(io|e))( la)? licencias?)\\b/",
+                "excepcion en la consola del antivirus" : "/\\b(excepcion(es)? en( la consola)? (del|el) antivirus)\\b/",
+                "cambiarle la contrasena" : "/\\b((cambiar(le)?|resetear(le)?) la (contrasena|clave))\\b/",
+                "entrar sin que se de cuenta" : "/\\b(entrar sin que se( vayan?)? (den?|dar) cuenta)\\b/",
+                "capturar la contrasena" : "/\\b(capturar la (contrasena|clave))\\b/"
             },
 
             "rationalization": {
+                "lo quise eliminar" : "/\\b(lo (quise|queria|tuve que) (eliminar|destruir))\\b/",
+                "lo tuve que instalar" : "/\\b(l[oa] tuve que instalar)\\b/",
+                "lo tuve que alterar" : "/\\b(l[oa] tuve que alterar)\\b/",
+                "se tuvo que manipular" : "/\\b((se|lo) tuv[oe] que manipular)\\b/",
+                "me pidieron los accesos" : "/\\b((me|nos) pidieron los accesos)\\b/",
+                "me pidieron el administrador" : "/\\b((me|nos) pidieron el administrador)\\b/",
+                "las claves las tienen ellos" : "/\\b(las (claves|contrasenas) las tienen ellos)\\b/",
+                "hay que dejarlos entrar" : "/\\b((hay|tenemos|tengo) que dejarlos? entrar)\\b/",
+                "hablar en clave" : "/\\b(habla(r|ndo) en clave)\\b/",
+                "acceso secreto" : "/\\b((acceso|entrada|puerta) secret[oa])\\b/"
+            }
+        },
+        
+        "HUMAN": {
 
+            "pressure": {
+                "sin hoja de vida" : "/\\b(sin hojas? de vida)\\b/",
+                "sin referencias laborales" : "/\\b((sin| faltan)( las?)? referencias? laboral(es)?)\\b/",
+                "hoja de vida manchada" : "/\\b(hoja de vida manchada)\\b/",
+                "hay que contratarlo como sea" : "/\\b(hay que contratarl[oa] como sea)\\b/",
+                "sin pruebas psicotecnicas" : "/\\b(sin pruebas? p?sicotecnicas?)\\b/",
+                "con malas referencias" : "/\\b(con (malas|pesimas) referencias)\\b/",
+                "se contrata por orden de arriba" : "/\\b(se contrata por orden del? (arriba|presidencia|la jefe))\\b/",
+                "la seleccion fue a dedo" : "/\\b(la seleccion fue a dedo)\\b/",
+                "esa no es la descripcion del puesto" : "/\\b(esa no es la descripcion del (puesto|cargo))\\b/",
+                "no es el perfil profesional" : "/\\b(no es el perfil profesional)\\b/"
+            },
+
+            "opportunity": {
+                "falsificando los diplomas" : "/\\b(falsificando (los|el) diplomas?)\\b/",
+                "experiencia ficticia" : "/\\b(experiencia ficticia)\\b/",
+                "le inventamos experiencia" : "/\\b(le inventamos( la)? experiencia)\\b/",
+                "esta persona me la recomendaron" : "/\\b(estas? personas? (me|nos) las? recomendaron)\\b/",
+                "viene recomendado" : "/\\b(viene recomendad[oa])\\b/",
+                "entro por rosca" : "/\\b(entro por( pura)? rosca)\\b/",
+                "apalancamos el puesto" : "/\\b(apalan(co|ca|camos|que) el (puesto|cargo))\\b/",
+                "le modifico la hoja de vida" : "/\\b(le modific(o|a|amos|aron) la hoja de vida)\\b/",
+                "cambiamos el perfil profesional" : "/\\b(cambiamos el perfil profesional)\\b/",
+                "cambiamos el salario" : "/\\b(cambiamos el salario)\\b/",
+                "le bajamos la liquidacion" : "/\\b(le bajamos la liquidacion)\\b/"
+            },
+
+            "rationalization": {
+                "entrevista confidencial" : "/\\b(entrevistas?( son| es| eran?| fue(ron)?)? confidencial(es)?)\\b/",
+                "ayudarle a conseguir trabajo" : "/\\b(ayudarl[eao]s? conseguir( un| algun)? (trabajo|empleo))\\b/",
+                "lleva mucho tiempo desempleado" : "/\\b(llevan? (mucho|largo) tiempo desemplead[oa]s?)\\b/",
+                "me da mucho pesar de el" : "/\\b(me da mucho pesar de (el|ella|ellos|ellas))\\b/",
+                "porque tiene muchas deudas" : "/\\b(porque tiene (muchas|demasiadas) deudas)\\b/",
+                "le van a quitar la casa" : "/\\b(les? van quitar (la casa|el apartamento|el carro))\\b/",
+                "necesita el trabajo" : "/\\b(necesitan? el (trabajo|empleo))\\b/",
+                "necesita el ascenso" : "/\\b((necesita|quiere) el ascenso)\\b/",
+                "es un despido injusto" : "/\\b((es|fue|era) un despido (injusto|sin justa causa))\\b/",
+                "se merece las vacaciones" : "/\\b(se merecen? las vacaciones)\\b/",
+                "necesita las horas extras" : "/\\b(necesitan? las horas extras?)\\b/"
+            }
+        },
+        
+        "FINANCE": {
+
+            "pressure": {
+                "desfalco en la caja" : "/\\b(desfalcos? en( la)? caja)\\b/"
+            },
+
+            "opportunity": {
+                "juegue con la utilidad" : "/\\b((jueguen?|juguemos|juego|juegue) con las? utilidad(es)?)\\b/",
+                "tapar el descuadre" : "/\\b(tap(an?|en?|ar) (el|los) decuadres?)\\b/",
+                "jineteo de cuentas" : "/\\b(jinete(o|a|ar|ado|ando) (de|las?) cuentas?)\\b/",
+                "cambielo por amortizaciones" : "/\\b((cambiel[oa]s?|revers[ea]n?) (por|las?) amortizacion(es)?)\\b/",
+                "transaccion sin soporte" : "/\\b(transaccion(es)? sin soportes?)\\b/",
+                "anular la factura" : "/\\b(anular la factura)\\b/",
+                "doble contabilidad" : "/\\b(doble contabilidad)\\b/"
+            },
+
+            "rationalization": {
+                "es solo un prestamo" : "/\\b((es solo|solo es) un prestamo)\\b/"
             }
         },
 
@@ -161,21 +303,6 @@
 
             "rationalization": {
 
-            }
-        },
-
-        "HUMAN": {
-
-            "pressure": {
-
-            },
-
-            "opportunity": {
-
-            },
-
-            "rationalization": {
-                "entrevista confidencial" : "/\\b(entrevistas?( son| es| eran?| fue(ron)?)? confidencial(es)?)\\b/"
             }
         },
 
@@ -265,25 +392,6 @@
             },
 
             "rationalization": {
-
-            }
-        },
-
-        "FINANCE": {
-
-            "pressure": {
-                "desfalco en la caja" : "/\\b(desfalcos? en( la)? caja)\\b/"
-
-            },
-
-            "opportunity": {
-                "juegue con la utilidad" : "/\\b((jueguen?|juguemos|juego|juegue) con las? utilidad(es)?)\\b/",
-                "tapar el descuadre" : "/\\b(tap(an?|en?|ar) (el|los) decuadres?)\\b/",
-                "jineteo de cuentas" : "/\\b(jinete(o|a|ar|ado|ando) (de|las?) cuentas?)\\b/"
-            },
-
-            "rationalization": {
-                "es solo un prestamo" : "/\\b((es solo|solo es) un prestamo)\\b/"
 
             }
         },
