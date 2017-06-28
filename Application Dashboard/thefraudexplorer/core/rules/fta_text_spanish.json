@@ -1,5 +1,5 @@
 {
-    "_comment": "The Fraud Explorer - Fraud Triangle Analytics dictionary & rules, v0.1.8-spanish-colombia",
+    "_comment": "The Fraud Explorer - Fraud Triangle Analytics dictionary & rules, v0.1.9-spanish-colombia",
     "dictionary": {
 
         "BASELINE": {
@@ -49,7 +49,8 @@
                 "me negaron el prestamo" : "/\\b((me|nos) negaron (el|los) prestamos?)\\b/",
                 "el gota a gota" : "/\\b(gota gota)\\b/",
                 "no lo detectaron" : "/\\b((no|tampoco) (l[oa]s?|fue) detect([oae]|aron|ad[oa]))\\b/",
-                "tuve que empenarlo" : "/\\b(tuve que empenarl[oa]s?)\\b/"
+                "tuve que empenarlo" : "/\\b(tuve que empenarl[oa]s?)\\b/",
+                "inventese una excusa" : "/\\b(inventese (una|alguna) excusa)\\b/"
             },
             
             "opportunity": {
@@ -69,7 +70,7 @@
                 "trabajo especial" : "/\\b((trabaj(o|ito|ote)s?) especial(es)?)\\b/",
                 "eso queda entre nosotros" : "/\\b(queda entre (nosotr[oa]s|vos yo|tu yo))\\b/",
                 "cualquiera se equivoca" : "/\\b(cualquiera se( puede)? equivocar?)\\b/",
-                "creyeron toda la historia" : "/\\b((creyeron|creyo|trag(o|agon))( toda)? las? historias?)\\b/",
+                "creyeron toda la historia" : "/\\b((creyeron|creyo|trag(o|aron))( toda)? las? historias?)\\b/",
                 "evadir los controles" : "/\\b((evita(r|ndo)|evadi(r|endo)|salta(r|ndo)|brinca(r|ndo))( los| el)? control(es)?)\\b/",
                 "maquille el informe" : "/\\b(maquill(e|ar|as) (el|l[oa]s?|un(os)?) (informes?|documentos?|papel(es)?))\\b/",
                 "contribuir con la causa" : "/\\b((contribuir|apoyar|ayudar)( con)? la causa)\\b/",
@@ -373,30 +374,114 @@
         "LEGAL": {
 
             "pressure": {
-
+                "por encima de la norma" : "/\\b(por encima de las? normas?)\\b/",
+                "no conozco la ley" : "/\\b(no (conozco|conocemos|conocia|sabia)( de)? las? (ley(es)?|normas?))\\b/",
+                "debo supervisar ese contrato" : "/\\b((debo|tengo que) (supervisar|vigilar|estar pendiente de) (ese|esos) contratos?)\\b/",
+                "debo hacer el estudio legal" : "/\\b((debo|tengo que) hacer (el|los) estudios? legal(es)?)\\b/",
+                "oficiar a las autoridades" : "/\\b(oficiar las? autoridad(es)?)\\b/",
+                "el costo legal de ese fraude" : "/\\b(el costo legal del?( ese)? fraude)\\b/",
+                "habra una disputa legal" : "/\\b(habran?( unas?)? disputas? legal(es)?)\\b/",
+                "podemos tener problemas legales" : "/\\b(podemos tener( \\w*)? problemas? legal(es)?)\\b/",
+                "nos van a demandar" : "/\\b(nos (\\w*) demandar)\\b/",
+                "vamos a perder el proceso" : "/\\b((vamos|podemos|podriamos) perder (el|los|las?) (procesos?|demandas?))\\b/"
             },
 
             "opportunity": {
-
+                "saltese la norma" : "/\\b((saltesen?|saltarsen?) las? (normas?|ley(es)?))\\b/",
+                "no investiguemos ese caso" : "/\\b(no investigue(mos)? (ese|el|los) (casos?|procesos?))\\b/",
+                "no supervisemos eso" : "/\\b(no supervise(mos)? (\\w*))\\b/",
+                "no informemos de la vigencia de la norma" : "/\\b()\\b/",
+                "no hay un marco legal" : "/\\b(no (hay|existe|hubo) un marco legal)\\b/",
+                "la ley nos ampara" : "/\\b(las? (ley(es)?|normas?) nos amparan?)\\b/",
+                "sacamos ventaja de la ley" : "/\\b(sacamos ventaja de las? ley(es)?)\\b/",
+                "aprovechemos el vacio legal" : "/\\b(aprovechemos el vacio (legal|en las? ley(es)?|en las? normas?))\\b/",
+                "no avisemos de la ley" : "/\\b(no (avise(mos)?|les? diga(mos)?|diga(mos)?) de las? (ley(es)?|normas?))\\b/",
+                "saltar la norma" : "/\\b(saltar(sen?)? las? (normas?|ley(es)?))\\b/"
             },
 
             "rationalization": {
-                
+                "las normas no importan" : "/\\b(las? (normas?|ley(es)?) no importan?)\\b/",
+                "que pereza estudiarse esa ley" : "/\\b(que (pereza|aburrido|aburricion|caspa) (estudiar(se)?|leer(se)?) esas? (ley(es)?|normas?))\\b/",
+                "no habia necesidad de supervisarlo" : "/\\b(no (habia|hubo|hay|tenia(mos|n)?) necesidad de supervisarl[oa]s?)\\b/",
+                "no sabia que estaba vigente" : "/\\b(no sabia(mos|n)? que estaban? vigentes?)\\b/",
+                "la trampa es la norma" : "/\\b(la trampa es la (norma|ley)|la (norma|ley) es la trampa)\\b/",
+                "no habia responsabilidad legal" : "/\\b(no (habia|hay|existe|hubo) (\\w*) responsabilidad(es)? legal(es)?)\\b/",
+                "la ley no dice nada" : "/\\b(las? (ley(es)?|normas?) no dicen? nada)\\b/",
+                "no conociamos la norma" : "/\\b(no (conocia(mos)?|sabia(mos)?)( de)? las? (normas?|ley(es)?))\\b/",
+                "nos conviene legalmente" : "/\\b(nos (convienen?|convino|favorecen?|favorecian?) (legalmente|juridicamente))\\b/",
+                "justificaba saltarse la norma" : "/\\b((justificaba|justifico|necesitaba) saltar(sen?)? las? (normas?|ley(es)?))\\b/"
             }
         },
 
-        "OPERATIONS": {
+        "SALES": {
 
             "pressure": {
-
+                "no entregamos lo que ofrecemos" : "/\\b(no (entregamos|se entrega|se da) lo que (ofrecemos|se ofrece|se promociona))\\b/",
+                "rendimiento desproporcionado" : "/\\b(rendimientos? desproporcionados?)\\b/",
+                "el producto no esta listo" : "/\\b((el|los) productos? no estan? listos?)\\b/",
+                "pesima campana publicitaria" : "/\\b((pesimas?|malas|malisimas?) campanas? publicitarias?)\\b/",
+                "mala imagen comercial" : "/\\b(mala imagen (corporativa|comercial))\\b/",
+                "mal planificado" : "/\\b(mal planificad[ao]s?)\\b/",
+                "presion por cumplir la meta" : "/\\b(presion(ado|ando|es)? por cumplir( las?)? metas?)\\b/",
+                "necesito las comisiones" : "/\\b(necesit([oa]|amos)? (las?|esas?) comision(es)?)\\b/",
+                "precios estan inflados" : "/\\b(precios? (\\w*) inflados?)\\b/",
+                "objetivos inalcanzables" : "/\\b((objetivos? inalcanzables?)|(objetivos? no se pueden? alcanzar))\\b/",
+                "marketing inadecuado" : "/\\b((marketing|publicidad) inadecuad[oa])\\b/",
+                "necesito mas incentivos" : "/\\b(necesit(o|a|amos) (\\w*) incentivos?)\\b/",
+                "presion por aumentar las ventas" : "/\\b(presion(es)? por aumentar (las?|los) (ventas?|clientes))\\b/",
+                "competencia desleal" : "/\\b(competencia desleal)\\b/",
+                "publicidad enganosa" : "/\\b(publicidad enganosa)\\b/",
+                "interes oculto en esa venta" : "/\\b(interes(es)? ocultos? (en esas?|durante las?|con las?) ventas?)\\b/",
+                "esa venta nunca ocurrio" : "/\\b(esa venta nunca (ocurrio|se hizo|paso))\\b/",
+                "corrupcion en la venta" : "/\\b(corrupcion en las? ventas?)\\b/",
+                "venta ilegal" : "/\\b(ventas? ilegal(es)?)\\b/",
+                "servicio pesimo" : "/\\b((servicios? pesimos?)|(pesimos? servicios?))\\b/"
             },
 
             "opportunity": {
-
+                "demasiados terminos tecnicos" : "/\\b(demasiad(os|a) termino(s|logia) tecnic(os|a))\\b/",
+                "mucho tecnicismo" : "/\\b(mucho tecnicismo)\\b/",
+                "podemos inflar los precios" : "/\\b((podemos|debemos) inflar (los|esos|el) (precios?|valor(es)?))\\b/",
+                "acuerdo en secreto" : "/\\b(acuerdos? en secreto)\\b/",
+                "no les cobre" : "/\\b(no les? cobren?)\\b/",
+                "no llame a cobrar" : "/\\b(no llame cobrar(les?)?)\\b/",
+                "espiar a la competencia" : "/\\b((espiar|vigilar) la competencia)\\b/",
+                "hacerle una oferta especial" : "/\\b(hacer(le)? unas? ofertas? especial(es)?)\\b/",
+                "ponerle un precio especial" : "/\\b((ponerle|ponele|decile) un precio especial)\\b/",
+                "hacerle un descuento especial" : "/\\b((\\w*) un(os)? descuentos? especial(es)?)\\b/",
+                "cliente fantasma" : "/\\b((clientes?|ventas?) fantasmas?)\\b/",
+                "venta ficticia" : "/\\b(ventas? ficticias?)\\b/",
+                "venta condicionada" : "/\\b(ventas? condicionadas?)\\b/",
+                "venta cruzada" : "/\\b(ventas? cruzadas?)\\b/",
+                "compro y luego vendo" : "/\\b(compro luego (los?|las?) vendo)\\b/",
+                "no reporto la venta" : "/\\b(no report[oea]n? las? ventas?)\\b/",
+                "no reporto la oportunidad" : "/\\b(no report[oea]n? las? oportunidad(es)?)\\b/",
+                "aceptarle regalos al cliente" : "/\\b((aceptarle|aceptele)( el| los)? regalos? al cliente)\\b/",
+                "me pague un adelanto" : "/\\b(me paguen? (un|el|como) adelanto)\\b/",
+                "el cliente no debe saber" : "/\\b(clientes? no (deben?|pueden?) saber(lo)?)\\b/",
+                "oculte el precio" : "/\\b((oculte|esconda) (el|los) (precios?|valor(es)?))\\b/"
             },
 
             "rationalization": {
-
+                "necesitaba un convenio de pago" : "/\\b(necesitaban? (un|el|los) convenios? de pago)\\b/",
+                "contacto secreto" : "/\\b(contactos? (secretos?|confidencial(es)?))\\b/",
+                "malas desiciones comerciales" : "/\\b(malas? desicion(es)? comercial(es)?)\\b/",
+                "canal inadecuado" : "/\\b(canal(es)?( \\w*)? inadecuados?)\\b/",
+                "previsiones mal hechas" : "/\\b(prevision(es)? mal hechas?)\\b/",
+                "no sabe nada de ventas" : "/\\b(no saben?( nada de)? ventas)\\b/",
+                "no hay motivacion" : "/\\b(no (hay|tuve|tengo|tenemos) motivacion(es)?)\\b/",
+                "estrategia mal disenada" : "/\\b(estrategias? mal disenadas?)\\b/",
+                "no se investigo el mercado" : "/\\b(no( se)? investigo el mercado)\\b/",
+                "mal distribuido" : "/\\b(mal distribuid[oa]s?)\\b/",
+                "se fijaron mal los precios" : "/\\b(se fij(aron|o) mal (los|el) precios?)\\b/",
+                "el producto no era bueno" : "/\\b((el|los) (productos?|servicios?) no (es|era|son) buenos?)\\b/",
+                "descuidaron los clientes" : "/\\b(descuid(aron|o) (los|el) clientes?)\\b/",
+                "necesitaba ese acuerdo" : "/\\b(necesitaba ese acuerdo)\\b/",
+                "el cliente siempre tiene la razon" : "/\\b(el cliente siempre tiene la razon)\\b/",
+                "invitar a almorzar al cliente" : "/\\b(invitar (almorzar|comer|desayunar)( al| a los| el)? clientes?)\\b/",
+                "reintegro de gastos" : "/\\b(reintegro de gastos)\\b/",
+                "el cliente me invito" : "/\\b(el cliente (me|nos) invito)\\b/",
+                "asi lo quizo el cliente" : "/\\b(asi lo (quizo|pidio) el cliente)\\b/"
             }
         },
 
@@ -415,7 +500,7 @@
             }
         },
 
-        "SALES": {
+        "LOGISTIC": {
 
             "pressure": {
 
@@ -430,7 +515,7 @@
             }
         },
 
-        "PRODUCTION": {
+        "QUALITY": {
 
             "pressure": {
 
@@ -445,7 +530,7 @@
             }
         },
 
-        "SUPPORT": {
+        "PROJECTS": {
 
             "pressure": {
 
@@ -475,67 +560,7 @@
             }
         },
 
-        "MARKETING": {
-
-            "pressure": {
-
-            },
-
-            "opportunity": {
-
-            },
-
-            "rationalization": {
-
-            }
-        },
-
-        "ADMIN": {
-
-            "pressure": {
-
-            },
-
-            "opportunity": {
-
-            },
-
-            "rationalization": {
-
-            }
-        },
-
-        "SECURITY": {
-
-            "pressure": {
-
-            },
-
-            "opportunity": {
-
-            },
-
-            "rationalization": {
-
-            }
-        },
-
-        "DESIGN": {
-
-            "pressure": {
-
-            },
-
-            "opportunity": {
-
-            },
-
-            "rationalization": {
-
-            }
-        },
-
-        "PLANING": {
+        "OPERATIONS": {
 
             "pressure": {
 
@@ -549,6 +574,5 @@
 
             }
         }
-
     }
 }
