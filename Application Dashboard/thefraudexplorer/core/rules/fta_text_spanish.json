@@ -1,5 +1,5 @@
 {
-    "_comment": "The Fraud Explorer - Fraud Triangle Analytics dictionary & rules, v0.1.9-spanish-colombia",
+    "_comment": "The Fraud Explorer - Fraud Triangle Analytics dictionary & rules, v0.2.0-spanish-colombia",
     "dictionary": {
 
         "BASELINE": {
@@ -50,7 +50,29 @@
                 "el gota a gota" : "/\\b(gota gota)\\b/",
                 "no lo detectaron" : "/\\b((no|tampoco) (l[oa]s?|fue) detect([oae]|aron|ad[oa]))\\b/",
                 "tuve que empenarlo" : "/\\b(tuve que empenarl[oa]s?)\\b/",
-                "inventese una excusa" : "/\\b(inventese (una|alguna) excusa)\\b/"
+                "inventese una excusa" : "/\\b(inventese (una|alguna) excusa)\\b/",
+                "creo que sospechan" : "/\\b(creo que sospechan?)\\b/",               
+                "me siento incomodo" : "/\\b(me siento incomod[oa])\\b/",
+                "estan actuando muy raro" : "/\\b((estan? actuando|se estan? comportando) muy raro)\\b/",
+                "que tan raro" : "/\\b(que tan raro)\\b/",
+                "se ve como raro" : "/\\b(se ven? (como|muy) raros?)\\b/",
+                "reforma del apartamento" : "/\\b(reforma (del|de la) (apartamento|casa|finca))\\b/",
+                "modernizar la casa" : "/\\b(modernizar (la|el) (casa|apartamento|finca))\\b/",
+                "pisar las argollas" : "/\\b(pisar las argollas)\\b/",
+                "super fiesta" : "/\\b((super|gran) (fiesta|rumba))\\b/",
+                "sin un peso" : "/\\b(sin un peso)\\b/",
+                "pide mucha plata" : "/\\b(pide mucha plata)\\b/",
+                "es muy exigente" : "/\\b((es|son) muy exigentes?)\\b/",
+                "tren de gastos" : "/\\b(tren de gastos)\\b/",
+                "me esta chantajeando" : "/\\b(me estan? (chantajeando|chantajiando))\\b/",
+                "se entero por accidente" : "/\\b(se (entero|enteraron) por accidente)\\b/",
+                "me odia" : "/\\b(me odian?)\\b/",
+                "con puras mentiras" : "/\\b((con|son|es) puras? mentiras?)\\b/",
+                "tremendo alegato" : "/\\b(tremendo alegato)\\b/",
+                "que calentura" : "/\\b(que calentura)\\b/",
+                "el ambiente esta caliente" : "/\\b(el ambiente esta caliente)\\b/",
+                "me obligaron a renunciar" : "/\\b((me|me estan) (obligaron|obligando) a renunciar)\\b/",
+                "me pidieron la renuncia" : "/\\b(me pidieron (la renuncia|que renunciara))\\b/"
             },
             
             "opportunity": {
@@ -90,7 +112,27 @@
                 "sin gente profesional" : "/\\b(sin gente profesional)\\b/",
                 "mover las influencias" : "/\\b((mover|movio|movi|moviendo|movieron|mueve) las influencias)\\b/",
                 "pago de influencias" : "/\\b(pago de( las)? influencias)\\b/",
-                "al escondido" : "/\\b(al escondido)\\b/"
+                "al escondido" : "/\\b(al escondido)\\b/",
+                "antes de que sospechen" : "/\\b(antes de que sospechen?)\\b/",
+                "sin sospechas" : "/\\b(sin sospechas?)\\b/",
+                "documentos provisionales" : "/\\b(documentos? provisional(es)?)\\b/",
+                "movimientos inusuales" : "/\\b(movimientos? inusual(es)?)\\b/",
+                "procedimiento tan raro" : "/\\b(procedimiento (\\w*) raros?)\\b/",
+                "con nombre parecido" : "/\\b(con nombres? parecidos?)\\b/",
+                "el proveedor es buena gente" : "/\\b(el proveedor es buena gente)\\b/",
+                "por la plata baila el mono" : "/\\b(por la plata baila el mono)\\b/",
+                "cuando este en vacaciones" : "/\\b(cuando esten? en vacaciones)\\b/",
+                "cuando este ocupado" : "/\\b(cuando esten? ocupados?)\\b/",
+                "que parezca un accidente" : "/\\b(que parezca un accidente)\\b/",
+                "mientras ellos alegaban" : "/\\b(mientras (ellos|el) alegaban?)\\b/",
+                "con la ayuda de sistemas" : "/\\b(con la ayuda de( alguien de)? sistemas)\\b/",
+                "sin pasar por el banco" : "/\\b(sin pasar por el banco)\\b/",
+                "el banco no detecto" : "/\\b(el banco no( lo)? detecto)\\b/",
+                "esconder las cuentas" : "/\\b(esconder las? cuentas?)\\b/",
+                "sin medir consecuencias" : "/\\b(sin medir( las?)? consecuencias?)\\b/",
+                "cuando sepan renuncio" : "/\\b(cuando sepan renuncio)\\b/",
+                "debo hacer teatro" : "/\\b(debo hacer( el)? teatro)\\b/",
+                "entre nosotros nos entendemos" : "/\\b(entre nosotros nos entendemos)\\b/"
             },
 
             "rationalization": {
@@ -122,7 +164,25 @@
                 "arriesgarse por mucho" : "/\\b(arriesgarsen? por (mucho|nada))\\b/",
                 "impacto insignificante" : "/\\b(impacto( es| fue| era)? insignificante)\\b/",
                 "no es justo" : "/\\b(no es justo)\\b/",
-                "porque son de confianza" : "/\\b((son|es) de confianza)\\b/"
+                "porque son de confianza" : "/\\b((son|es) de confianza)\\b/",
+                "situacion temporal" : "/\\b(situacion( es)? temporal)\\b/",
+                "jefe temporal" : "/\\b(jefe( es)? temporal)\\b/",
+                "incomodo pero se hace" : "/\\b(incomod[oa] pero (se|lo) (hace|hago))\\b/",
+                "el soborno funciona" : "/\\b(el soborno( siempre)? funciona)\\b/",
+                "no dejan progresar" : "/\\b(no dejan( que uno)? progres(e|ar))\\b/",
+                "no me ascendieron" : "/\\b(no me ascendieron)\\b/",
+                "no me subieron el salario" : "/\\b(no (me|nos) (subieron|subio) el salario)\\b/",
+                "muy amigo del auditor" : "/\\b(muy amigo del auditor)\\b/",
+                "hay que defenderlo" : "/\\b(hay que defenderl[oa]s?)\\b/",
+                "abogado del pueblo" : "/\\b(abogad[oa] del pueblo)\\b/",
+                "excusa perfecta" : "/\\b(excusas? perfectas?)\\b/",
+                "por todo lo alto" : "/\\b(por todo lo alto)\\b/",
+                "no se ve el progreso" : "/\\b(no se ve el progreso)\\b/",
+                "fomentar el desorden" : "/\\b(fomentar el desorden)\\b/",
+                "buen samaritano" : "/\\b(buena? samaritan[oa])\\b/",
+                "me cae gordo" : "/\\b(me caen? (gord[oa]s?|mal))\\b/",
+                "hasta el final" : "/\\b(hasta el final)\\b/",
+                "me defiendo como sea" : "/\\b(me defiendo)\\b/"
             }
         },
 
@@ -488,30 +548,89 @@
         "AUDIT": {
 
             "pressure": {
-
+                "no lo reportemos" : "/\\b(no lo reporte(mos)?)\\b/",
+                "sin evaluarlo primero" : "/\\b(sin (evaluarlo|revisarlo|analizarlo) primero)\\b/",
+                "muchas debilidades" : "/\\b(muchas? debilidad(es)?)\\b/",
+                "gran incumplimiento" : "/\\b(gran incumplimiento)\\b/",
+                "se saltaron los controles" : "/\\b((se saltaron|evadieron|evadio) (los|el) control(es)?)\\b/",
+                "mala auditoria" : "/\\b(malas? auditorias?)\\b/",
+                "no me di cuenta" : "/\\b(no me di cuenta)\\b/",
+                "me obligaron a escribir eso" : "/\\b(me obligaron (escribir(lo)?|redactar(lo)?))\\b/",
+                "me puedo meter en problemas" : "/\\b(me puedo meter en( un)? (problemas?|lios?))\\b/",
+                "no sabe con quien se mete" : "/\\b(no saben? con quien (se meten?|se estan? metiendo))\\b/"
             },
 
             "opportunity": {
-
+                "no voy a hacer la recomendacion" : "/\\b(no voy hacer la recomedacion)\\b/",
+                "saltese el control" : "/\\b(saltese el control)\\b/",
+                "se como evadir el control" : "/\\b(se como (evadir|saltarme) (el|los) control(es)?)\\b/",
+                "no voy a decir nada" : "/\\b(no voy decir nada)\\b/",
+                "no lo voy a delatar" : "/\\b(no (los?|te) voy delatar)\\b/",
+                "no lo voy a informar" : "/\\b(no lo voy (informar|revisar|auditar))\\b/",
+                "no voy a investigarlo" : "/\\b(no voy (investigar(lo)?|investigar(lo)?))\\b/",
+                "fugar el informe" : "/\\b(fugar (el|los) informes?)\\b/",
+                "maquillar el informe" : "/\\b(maquillar (el|los) informes?)\\b/",
+                "le conviene que hablemos" : "/\\b(le conviene que (hablemos|conversemos))\\b/",
+                "negociemos eso" : "/\\b(negociemos eso)\\b/"
             },
 
             "rationalization": {
-
+                "la prensa necesita saber" : "/\\b((la|los) (prensa|radio|periodistas) (necesitan?|tienen? que|deberian?) saber)\\b/",
+                "el mundo tiene que conocer esto" : "/\\b(el mundo tiene que (conocer|saber) esto)\\b/",
+                "tenemos que denunciarlo" : "/\\b((tenemos|tengo|tuve) que denunciar(l[oa])?)\\b/",
+                "dificil de detectar" : "/\\b(dificil de (detectar|encontrar))\\b/",
+                "no se detecto" : "/\\b(no se (detecto|encontro))\\b/",
+                "no tenia autonomia" : "/\\b(no tenia (autonomia|independencia))\\b/",
+                "no me entregaron la informacion" : "/\\b(no me entregaron la (informacion|documentacion))\\b/",
+                "no quiero causar dano" : "/\\b(no quiero causar (danos?|problemas?))\\b/",
+                "me convenia quedarme callado" : "/\\b(me convenia quedarme callad[oa])\\b/",
+                "por el bien de la empresa" : "/\\b(por el bien de la (empresa|organizacion|compania))\\b/"
             }
         },
 
         "LOGISTIC": {
 
             "pressure": {
-
+                "horario sospechoso" : "/\\b(horarios? sospechosos?)\\b/",
+                "fuera del horario normal" : "/\\b(fuera del horario normal)\\b/",
+                "una factura diferente" : "/\\b(una factura diferente)\\b/",
+                "demorar la entrega" : "/\\b(demorar la entrega)\\b/",
+                "negocie aparte con el cliente" : "/\\b(negocie aparte con el cliente)\\b/",
+                "entregue sin preguntar nada" : "/\\b(entregue sin preguntar nada)\\b/",
+                "entrega riesgosa" : "/\\b(entrega riesgosa)\\b/",
+                "solo entre el cliente y usted" : "/\\b(solo entre el cliente usted)\\b/",
+                "encuentre la forma de incrementarlo" : "/\\b(encuentre la forma de incrementarlo)\\b/",
+                "operacion delicada" : "/\\b(operacion(es)? delicadas?)\\b/"
             },
 
             "opportunity": {
-
+                "numero de telefono desconocido" : "/\\b(numero de telefono desconocido)\\b/",
+                "pedido grande" : "/\\b(pedidos? grandes?)\\b/",
+                "cualquier correo electronico" : "/\\b(cualquier correo electronico)\\b/",
+                "cualquier region" : "/\\b(cualquier region)\\b/",
+                "adelanto de gasolina" : "/\\b(adelanto de (gasolina|combustible))\\b/",
+                "una tarifa alta" : "/\\b(unas? tarifas? altas?)\\b/",
+                "factura independiente" : "/\\b(facturas? independientes?)\\b/",
+                "factura sin detalles" : "/\\b(facturas? sin detalles?)\\b/",
+                "orden ficticia" : "/\\b(orden(es)? ficticias?)\\b/",
+                "pongale un nombre similar" : "/\\b(pongale un nombre similar)\\b/",
+                "pago manual" : "/\\b(pagos? manual(es)?)\\b/",
+                "descuento para mi empresa" : "/\\b(descuento para mi (empresa|negocio))\\b/",
+                "decimos que lo estaban reparando" : "/\\b(decimos que lo estaban? reparando)\\b/",
+                "hacemos negocios" : "/\\b(hacemos negocios?)\\b/"
             },
 
             "rationalization": {
-
+                "se daran cuenta tarde" : "/\\b(se daran cuenta tarde)\\b/",
+                "por la propina" : "/\\b(por la propina)\\b/",
+                "ser fiel al cliente" : "/\\b(ser(le)? (fiel|leal) (al|los) clientes?)\\b/",
+                "comision grande" : "/\\b(comision(es)? grandes?)\\b/",
+                "ganamos a fin de ano" : "/\\b(ganamos fin de ano)\\b/",
+                "el cliente siempre tiene la razon" : "/\\b(el cliente siempre tiene la razon)\\b/",
+                "el cliente es muy amable" : "/\\b(el cliente es muy amable)\\b/",
+                "ese faltante no importa" : "/\\b((ese|esos) faltantes? no importan?)\\b/",
+                "eso es insignificante" : "/\\b(eso es insignificante)\\b/",
+                "necesitaba ese negocio" : "/\\b(necesitaba( hacer)? ese negocio)\\b/"
             }
         },
 
