@@ -1,5 +1,5 @@
 {
-    "_comment": "The Fraud Explorer - Fraud Triangle Analytics dictionary & rules, v0.2.0-spanish-colombia",
+    "_comment": "The Fraud Explorer - Fraud Triangle Analytics dictionary & rules, v0.2.1-spanish-colombia",
     "dictionary": {
 
         "BASELINE": {
@@ -450,7 +450,7 @@
                 "saltese la norma" : "/\\b((saltesen?|saltarsen?) las? (normas?|ley(es)?))\\b/",
                 "no investiguemos ese caso" : "/\\b(no investigue(mos)? (ese|el|los) (casos?|procesos?))\\b/",
                 "no supervisemos eso" : "/\\b(no supervise(mos)? (\\w*))\\b/",
-                "no informemos de la vigencia de la norma" : "/\\b()\\b/",
+                "no informemos de la vigencia de la norma" : "/\\b(no informe(mos)? de la vigencia de las? normas?)\\b/",
                 "no hay un marco legal" : "/\\b(no (hay|existe|hubo) un marco legal)\\b/",
                 "la ley nos ampara" : "/\\b(las? (ley(es)?|normas?) nos amparan?)\\b/",
                 "sacamos ventaja de la ley" : "/\\b(sacamos ventaja de las? ley(es)?)\\b/",
@@ -633,38 +633,96 @@
                 "necesitaba ese negocio" : "/\\b(necesitaba( hacer)? ese negocio)\\b/"
             }
         },
-
-        "QUALITY": {
+        
+        "CUSTOMER": {
 
             "pressure": {
-
+                "no lo atiendas" : "/\\b(no lo atiendas?)\\b/",
+                "no le resuelvas nada" : "/\\b(no le resuelvas? nada)\\b/",
+                "presione el contacto" : "/\\b(presione el (contacto|cliente))\\b/",
+                "presionelo por los datos" : "/\\b(presione(lo)? por (los|el) datos?)\\b/",
+                "pongale condiciones" : "/\\b(pongalen?( \\w*)? condicion(es)?)\\b/",
+                "estan escuchando la llamada" : "/\\b(estan? escuchando las? llamadas?)\\b/",
+                "hablele mal" : "/\\b(hable(le)? mal)\\b/",
+                "no tramite la queja" : "/\\b(no tramiten? las? quejas?)\\b/",
+                "no canalices la queja" : "/\\b(no canalice(n|s)? las? quejas?)\\b/",
+                "ocultemos la gestion" : "/\\b(oculte(mos)? la gestion)\\b/"
             },
 
             "opportunity": {
-
+                "sin datos de contacto" : "/\\b(sin( los)? datos de contacto)\\b/",
+                "sin medios de atencion" : "/\\b(sin( los)? medios de atencion)\\b/",
+                "ausencia de medios" : "/\\b(ausencia de medios)\\b/",
+                "sin direccion fisica" : "/\\b(sin direccion fisica)\\b/",
+                "no le des informacion" : "/\\b(no le des?( \\w*)? informacion)\\b/",
+                "no registres la oportunidad" : "/\\b(no registres? (las?|esas?) oportunidad(es)?)\\b/",
+                "vender los datos" : "/\\b(vender (los|el) datos?)\\b/",
+                "pez gordo" : "/\\b((pez|peces) gordos?)\\b/",
+                "cojale los datos" : "/\\b(cojale (los|el) datos?)\\b/",
+                "no lo deje ir" : "/\\b(no lo dejen? ir)\\b/",
+                "no pongamos el telefono" : "/\\b(no pongan?(mos)? (el|los) telefonos?)\\b/",
+                "recomienda otra empresa" : "/\\b()\\b/",
+                "eliminemos la queja" : "/\\b(eliminemos (las?|el|los) (quejas?|denuncias?|reclamos?))\\b/"
             },
 
             "rationalization": {
+                "fue muy grosero" : "/\\b(fue(ron)? muy groser[oa]s?)\\b/",
+                "era insoportable" : "/\\b(eran? insoportables?)\\b/",
+                "no me cayo bien" : "/\\b(no me cayo bien)\\b/",
+                "no me parecio conveniente" : "/\\b(no me parecio conveniente)\\b/",
+                "estos datos valen oro" : "/\\b((estos|este) datos? valen? oro)\\b/",
+                "eso no es privado" : "/\\b(eso no es privado)\\b/",
+                "me pagan por cada referido" : "/\\b(me pagan por cada referido)\\b/",
+                "esos datos son mi retiro" : "/\\b(esos datos son mi retiro)\\b/",
+                "nadie le interesa esa queja" : "/\\b(nadie le interesa es[aeo]s? (quejas?|reclamos?|denuncias?))\\b/",
+                "nadie le interesa el contacto" : "/\\b(nadie le interesa el contacto)\\b/"
+            }
+        },
 
+
+        "ENVIRONMENTAL": {
+
+            "pressure": {
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/"
+            },
+
+            "opportunity": {
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/"
+            },
+
+            "rationalization": {
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/",
+                "" : "/\\b()\\b/"
             }
         },
 
         "PROJECTS": {
-
-            "pressure": {
-
-            },
-
-            "opportunity": {
-
-            },
-
-            "rationalization": {
-
-            }
-        },
-
-        "CUSTOMER": {
 
             "pressure": {
 
