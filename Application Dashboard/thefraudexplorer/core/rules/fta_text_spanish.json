@@ -1,5 +1,5 @@
 {
-    "_comment": "The Fraud Explorer - Fraud Triangle Analytics dictionary & rules, v0.2.1-spanish-colombia",
+    "_comment": "The Fraud Explorer - Fraud Triangle Analytics dictionary & rules, v0.2.2-spanish-colombia",
     "dictionary": {
 
         "BASELINE": {
@@ -198,7 +198,17 @@
                 "hay que seleccionar a ese proveedor" : "/\\b(hay que (seleccionar|esco[jg]er|ele[jg]ir) (ese|esa) (proveedor|empresa))\\b/",
                 "tiene que ser ese proveedor" : "/\\b(tiene que ser (ese|esa) (proveedor|empresa))\\b/",
                 "hay que hacerle fuerza a ese proveedor" : "/\\b(hay que hacerle fuerza (ese|esa) (proveedor|empresa))\\b/",
-                "hay que mantener el proveedor" : "/\\b(hay que (mantener|conservar) (el|al) proveedor)\\b/"
+                "hay que mantener el proveedor" : "/\\b(hay que (mantener|conservar) (el|al) proveedor)\\b/",
+                "adjudicaron a otro proveedor" : "/\\b(adjudic(aron|o) otro proveedor)\\b/",
+                "esta en reclamaciones" : "/\\b(esta en reclamacion(es)?)\\b/",
+                "el proveedor se dio cuenta" : "/\\b(el proveedor se (dio cuenta|entero))\\b/",
+                "tratar con manita" : "/\\b(tratar(los?)? con manita)\\b/",
+                "coger con pinzas" : "/\\b(coger(los?)? con pinzas?)\\b/",
+                "fue la peor alternativa" : "/\\b(fue la peor (alternativa|opcion))\\b/",
+                "mucho control con los proveedores" : "/\\b(mucho control con los proveedores)\\b/",
+                "el proveedor no alcanza los indicadores" : "/\\b(el proveedor no alcanz[ao] (los|el) indicador(es)?)\\b/",
+                "proveedores amigos" : "/\\b(proveedor(es)? amigos?)\\b/",
+                "no piense en el manual de contratacion" : "/\\b(no piense en el manual de contratacion)\\b/"
             },
 
             "opportunity": {
@@ -211,7 +221,13 @@
                 "modificar la cotizacion" : "/\\b((modific(a|ar|ando|aron)|cambi(a|e|ar|aron|ando)) las? cotizacion(es)?)\\b/",
                 "con diferente razon social" : "/\\b(con diferente razon social)\\b/",
                 "con una direccion diferente" : "/\\b(con (una|la) direccion diferente)\\b/",
-                "pagarle por anticipado" : "/\\b(pagarles? por anticipado)\\b/"
+                "pagarle por anticipado" : "/\\b(pagarles? por anticipado)\\b/",
+                "no se nota en la orden de compra" : "/\\b(no se nota en las? orden(es)? de compra)\\b/",
+                "cruce con proveedores pequenos" : "/\\b(cruce con( \\w*)? proveedor(es)? pequenos?)\\b/",
+                "nunca revisan la orden de compra" : "/\\b(nunca revisan las? orden(es)? de compra)\\b/",
+                "todos ganan" : "/\\b(todos ganan)\\b/",
+                "aprobar proveedor sin documentos" : "/\\b(aprobar (los|el) proveedor(es)? sin (documentos?|papel(es)?))\\b/",
+                "sin justificar el inventario" : "/\\b(sin justificar el inventario)\\b/"
             },
 
             "rationalization": {
@@ -348,7 +364,14 @@
                 "actual descuadre" : "/\\b(actual(es)? descuadres?)\\b/",
                 "enredo de una plata" : "/\\b(enredo de (una|la) plat(a|ica))\\b/",
                 "ellos no revisan eso" : "/\\b(ellos no revisan eso)\\b/",
-                "revisan las mermas de gasolina" : "/\\b((revisan|revisando) las? (mermas|reduccion) de( la)? gasolina)\\b/"
+                "revisan las mermas de gasolina" : "/\\b((revisan|revisando) las? (mermas|reduccion) de( la)? gasolina)\\b/",
+                "no se como explicar el saldo" : "/\\b(no (se|sabemos|supo) como explicar(les?)? (el|los) saldos?)\\b/",
+                "tiene que salir hoy" : "/\\b(tienen? que salir (hoy|ya))\\b/",
+                "estan contando con esa plata" : "/\\b(estan? contando con (es[ae]s?|la|el|los) (platas?|billetes?|dinero))\\b/",
+                "la consignacion no aparece" : "/\\b(las? consignacion(es)? no aparecen?)\\b/",
+                "los soportes son diferentes" : "/\\b((los|el) soportes? (son|es) diferentes?)\\b/",
+                "soportes dobles" : "/\\b(soportes? dobles?)\\b/",
+                "pagar sin documentos" : "/\\b(pagar(les?)? sin (documentos|documentacion|papeles))\\b/"
             },
 
             "opportunity": {
@@ -395,7 +418,18 @@
                 "reclasifique en descuentos" : "/\\b(reclasifiquen? en descuentos?)\\b/",
                 "esconder las celdas" : "/\\b(escond(an?|er?|iendo) las? celdas)\\b/",
                 "con amortizaciones se tapa" : "/\\b((con amortizaciones se tapan?|se tapan? con amortizacion(es)?))\\b/",
-                "llevelo a gastos prepagados" : "/\\b(lleven?l[oa]s? gastos? prepagados?)\\b/"
+                "llevelo a gastos prepagados" : "/\\b(lleven?l[oa]s? gastos? prepagados?)\\b/",
+                "extender el vencimiento" : "/\\b(ext(ender|endamos|iendan?) (el|los) vencimientos?)\\b/",
+                "no refleja la realidad" : "/\\b(no reflejan? la realidad)\\b/",
+                "retrasar la conciliacion" : "/\\b(retras(ar|en?) las? conciliacion(es)?)\\b/",
+                "modifique el extracto" : "/\\b(modifiquen? (el|los) extractos?)\\b/",
+                "nunca revisan los extractos" : "/\\b(nunca revisan? (los|el) extractos?)\\b/",
+                "aplazar el registro" : "/\\b(apla(zaron|cen?|zo|zar)( \\w*)? registros?)\\b/",
+                "no enviar a contabilidad" : "/\\b(no (enviar|envien?)( \\w*)? contabilidad)\\b/",
+                "tesoreria no sabe" : "/\\b(tesoreria no saben?)\\b/",
+                "que no pase por pagos" : "/\\b(que no pasen? por pagos?)\\b/",
+                "reporte privado" : "/\\b(reportes?( \\w*)? privados?)\\b/",
+                "reporte solo para mi" : "/\\b(reportes? (es|son)? solo para mi)\\b/"
             },
 
             "rationalization": {
@@ -427,7 +461,9 @@
                 "viejos reembolsos" : "/\\b(viejos? reembolsos?)\\b/",
                 "descuentos no los revisan" : "/\\b(descuentos? no los? revisan)\\b/",
                 "sin control de los consecutivos" : "/\\b(sin control del?( los)? consecutivos?)\\b/",
-                "el carro tambien necesita gasolina" : "/\\b(el carro tambien necesita gasolina)\\b/"
+                "el carro tambien necesita gasolina" : "/\\b(el carro tambien necesita gasolina)\\b/",
+                "no esta en el codigo de etica" : "/\\b(no estan? en el codigo de etica)\\b/",
+                "estados de cuenta diferentes" : "/\\b(estados? de cuentas? diferentes?)\\b/"
             }
         },
 
@@ -679,61 +715,82 @@
             }
         },
 
-
-        "ENVIRONMENTAL": {
+        "TAXES": {
 
             "pressure": {
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/"
+                "sin retencion en la fuente" : "/\\b(sin retencion en la fuente)\\b/",
+                "declaracion muy alta" : "/\\b(declaracion muy alta)\\b/",
+                "tanta plata para impuestos" : "/\\b(tanta plata para( los| el)? impuestos?)\\b/",
+                "pagar sin retencion" : "/\\b((pagar|pague) sin( \\w*)? retencion(es)?)\\b/",
+                "pagar menos impuestos" : "/\\b(pagar menos impuestos?)\\b/",
+                "reducir impuestos" : "/\\b((reducir|evitar)( \\w*)? impuestos?)\\b/",
+                "la dian sospecha" : "/\\b(la dian (sospechan?|estan? sospechando))\\b/",
+                "problemas con la dian" : "/\\b(problemas? con la dian)\\b/",
+                "impuestos sin resolver" : "/\\b(impuestos? sin resolver)\\b/",
+                "ocultar ingresos" : "/\\b(ocultar( \\w*)? ingresos?)\\b/",
+                "minima carga fiscal" : "/\\b(minima carga fiscal)\\b/",
+                "limite de la legalidad" : "/\\b(limite de la legalidad)\\b/",
+                "impuestos con errores" : "/\\b(impuestos?( \\w*)? error(es)?)\\b/",
+                "obligaciones tributarias menores" : "/\\b(obligaciones tributarias menores)\\b/",
+                "reembolsos ilegales" : "/\\b(reembolsos? ilegal(es)?)\\b/"
             },
 
             "opportunity": {
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/"
+                "sin retencion" : "/\\b(sin( \\w*)? retencion(es)?)\\b/",
+                "no revisan los certificados" : "/\\b(no revisan los certificados)\\b/",
+                "no concilian retenciones" : "/\\b(no concilian retenciones)\\b/",
+                "menos impuestos" : "/\\b(menos impuestos?)\\b/",
+                "ocultar ingresos" : "/\\b(ocultar( \\w*)? ingresos?)\\b/",
+                "huecos legales" : "/\\b(huecos? legal(es)?)\\b/",
+                "minima carga fiscal" : "/\\b(minima carga fiscal)\\b/",
+                "ventajas tributarias" : "/\\b(ventajas? tributarias?)\\b/"
             },
 
             "rationalization": {
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/",
-                "" : "/\\b()\\b/"
+                "el gobierno tambien evade" : "/\\b((el gobierno|la dian) tambien evade)\\b/",
+                "el gobierno se la lleva toda" : "/\\b((el gobierno|la dian) se la lleva toda)\\b/",
+                "trabajar para el gobierno" : "/\\b(trabajar para (el gobierno|la dian))\\b/",
+                "es una practica comun" : "/\\b(practica( \\w*)? comun)\\b/",
+                "todos evaden" : "/\\b(todos evaden)\\b/",
+                "aprovechar los recursos legales" : "/\\b(aprovechar los recursos legales)\\b/",
+                "aprovechar los huecos de ley" : "/\\b(aprovechar los huecos de ley)\\b/",
+                "eludir es legal" : "/\\b(eludir (es legal|no es ilegal))\\b/"
             }
         },
 
         "PROJECTS": {
 
             "pressure": {
-
+                "el presupuesto no alcanzo" : "/\\b(el presupuesto no alcanz[oa])\\b/",
+                "no aprobaron todo el anticipo" : "/\\b(no (aprobaron|se aprobo) todo el anticipo)\\b/",
+                "retrazados con las actas" : "/\\b(retrazados? con (las|el) actas?)\\b/",
+                "no acepto el negocio" : "/\\b(no (acepto|aceptaron) el negocio)\\b/",
+                "no se metio en la vuelta" : "/\\b(no se (metio|metieron) en la vuelta)\\b/",
+                "contratista muy duro" : "/\\b(contratista( \\w*)? muy duros?)\\b/",
+                "plata para el funcionario" : "/\\b(plata para el funcionario)\\b/",
+                "sin plata no hay permiso" : "/\\b(sin plata no hay permiso)\\b/",
+                "tambien come" : "/\\b(tambien comen?)\\b/",
+                "pagar sin acta" : "/\\b(pagar(les?)? sin( \\w*)? actas?)\\b/"
             },
 
             "opportunity": {
-
+                "anticipo mayor" : "/\\b((anticipo mayor|mayor anticipo))\\b/",
+                "anticipo para cuadrar" : "/\\b(anticipo para cuadrar)\\b/",
+                "no hay trazabilidad de anticipos" : "/\\b(no hay trazabilidad del?( los)? anticipos?)\\b/",
+                "arreglamos la ejecucion" : "/\\b(arregle(mos)? las? ejecucion(es)?)\\b/",
+                "el papel puede con todo" : "/\\b(el papel puede con todo)\\b/",
+                "las actas quedaron muy buenas" : "/\\b((las|el) actas? (quedaron|quedo)( muy)? buenas?)\\b/",
+                "acepto el negocio" : "/\\b(acept(o|aron) el negocio)\\b/",
+                "se metio en la vuelta" : "/\\b(se meti(o|eron) en la vuelta)\\b/"
             },
 
             "rationalization": {
-
+                "me cuadro con el anticipo" : "/\\b(me cuadro con el anticipo)\\b/",
+                "necesito cumplir fechas" : "/\\b(necesito cumplir (fechas|cronograma))\\b/",
+                "necesitan el pago" : "/\\b(necesitan? (el|los) pagos?)\\b/",
+                "que pesar del contratista" : "/\\b(que pesar del (contratista|proveedor))\\b/",
+                "ayudarle al contratista" : "/\\b(ayudarle al (proveedor|contratista))\\b/",
+                "entre todos nos ayudamos" : "/\\b(entre todos nos ayudamos)\\b/"
             }
         },
 
